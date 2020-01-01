@@ -1,0 +1,32 @@
+@import "all.min.css";
+
+.fs-12{font-size: 12px;}
+.fs-14{font-size: 14px;}
+.fs-16{font-size: 16px;}
+.fs-18{font-size: 18px;}
+.fs-20{font-size: 20px;}
+.fs-30{font-size: 30px;}
+.fs-50{font-size: 50px;}
+
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+.text-left{text-align: left;}
+
+.pa0{padding: 0;}
+.pa{padding: 25px;}
+.pale-10{padding-left: 10px;}
+.pale{padding-left: 20px;}
+.pale-2x{padding-left: 40px;}
+.pari-10{padding-right: 10px;}
+.pari{padding-right: 20px;}
+.pari-2x{padding-right: 40px;}
+.patop-10{padding-top: 10px;}
+.patop{padding-top: 20px;}
+.patop-2x{padding-top: 40px;}
+
+.dis-no{display: none;}
+.box{box-sizing: border-box;}
+
+
+input.ge{border: 1px solid brown;}
+header{width: 100%; height: 250px; background-color: aquamarine; position: fixed;}
