@@ -14,10 +14,10 @@
 </head>
 <body style="height: 2000px;">
     <header class="text-center patop box">
-        <div class="fs-50">창세기(Genesis)</div>
+        <div class="fs-50 pabo">창세기(Genesis)</div>
         <nav class="patop">
-            <div class="old dis-inbl my">
-                <p>구약성경</p>
+            <div class="old dis-inbl">
+                <p class="pabo-10"><구약성경></p>
                 <ul class="oldList">
                     <li>
                         <label class="cupo">
@@ -31,10 +31,16 @@
                             <input type="radio" name="bible" id="ex" class="ex dis-no" onclick="goPage('exodus.html')" />출애굽기
                         </label>
                     </li>
+                    <li>
+                        <label class="cupo">
+                            <i class="far fa-circle"></i>
+                            <input type="radio" name="bible" id="le" class="le dis-no" onclick="goPage('leviticus.html')" />레위기
+                        </label>
+                    </li>
                 </ul>
             </div>
-            <div class="new dis-inbl my">
-                <p>신약성경</p>
+            <div class="new dis-inbl">
+                <p class="pabo-10"><신약성경></p>
                 <ul class="newList">
                     <li>
                         <label class="cupo">
@@ -48,12 +54,26 @@
                             <input type="radio" name="bible" id="mark" class="mark dis-no" onclick="goPage('mark.html')" />마가복음
                         </label>
                     </li>
+                    <li>
+                        <label class="cupo">
+                            <i class="far fa-circle"></i>
+                            <input type="radio" name="bible" id="luke" class="luke dis-no" onclick="goPage('luke.html')" />누가복음
+                        </label>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="words">
-
+    <div class="words-area box">
+        <div class="words box patop pale pari posi-re">
+            <p class="subhead fc-sky pabo-10 pale">천지창조</p>
+            <div class="text-justify" style="width: 325px;">
+                <span class="chap posi-ab" style="top: 42px;">1</span><p class="pale pabo-10">태초에 하나님이 천지를 창조하시<br>니라</p>
+                <span class="num posi-ab">2</span><p class="pale pabo-10">땅이 혼돈하고 공허하며 흑암이 깊음 위에 있고 하나님의 영은 수면 위에 운행하시니라</p>
+                <span class="num posi-ab">3</span><p class="pale pabo-10">하나님이 이르시되 빛이 있으라 하시니 빛이 있었고</p>
+                <span class="num posi-ab">4</span><p class="pale pabo-10">빛이 하나님이 보시기에 좋았더라 하나님이 빛과 어둠을 나누사</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

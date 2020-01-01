@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "all.min.css";
+@import "index.css";
 
 .fs-12{font-size: 12px;}
 .fs-14{font-size: 14px;}
@@ -8,10 +9,12 @@
 .fs-20{font-size: 20px;}
 .fs-30{font-size: 30px;}
 .fs-50{font-size: 50px;}
+.fc-sky{color: deepskyblue;}
 
 .text-center{text-align: center;}
 .text-right{text-align: right;}
 .text-left{text-align: left;}
+.text-justify{text-align: justify;}
 
 .pa0{padding: 0;}
 .pa{padding: 25px;}
@@ -24,14 +27,38 @@
 .patop-10{padding-top: 10px;}
 .patop{padding-top: 20px;}
 .patop-2x{padding-top: 40px;}
+.pabo-10{padding-bottom: 10px;}
+.pabo{padding-bottom: 20px;}
+.pabo-2x{padding-bottom: 40px;}
+.ma0{margin: 0;}
+.ma{margin: 25px;}
+.male-10{margin-left: 10px;}
+.male{margin-left: 20px;}
+.male-2x{margin-left: 40px;}
+.mari-10{margin-right: 10px;}
+.mari{margin-right: 20px;}
+.mari-2x{margin-right: 40px;}
+.matop-10{margin-top: 10px;}
+.matop{margin-top: 20px;}
+.matop-2x{margin-top: 40px;}
+.mabo-10{margin-bottom: 10px;}
+.mabo{margin-bottom: 20px;}
+.mabo-2x{margin-bottom: 40px;}
+
+.posi-re{position: relative;}
+.posi-ab{position: absolute;}
 
 .my{border: 1px solid red;}
 .dis-no{display: none;}
 .dis-inbl{display: inline-block;}
+.dis-bl{display: block;}
 .box{box-sizing: border-box;}
 .cupo:hover{cursor: pointer;}
-ul.oldList li, ul.newList li{display: inline-block;}
-
 
 input.ge{border: 1px solid brown;}
-header{width: 100%; height: 250px; background-color: aquamarine; position: fixed;}
+header{width: 100%; height: 250px; background-color: aquamarine; position: fixed; z-index: 9999;}
+body{font-size: 20px;}
+ul.oldList li, ul.newList li{display: inline-block;}
+.chap{color: deepskyblue; font-size: 45px;}
+.subhead{font-size: 18px;}
+.num{padding-left: 5px; display: inline-block; width: 10px;}
