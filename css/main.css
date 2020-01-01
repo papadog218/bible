@@ -30,6 +30,7 @@
 .pabo-10{padding-bottom: 10px;}
 .pabo{padding-bottom: 20px;}
 .pabo-2x{padding-bottom: 40px;}
+
 .ma0{margin: 0;}
 .ma{margin: 25px;}
 .male-10{margin-left: 10px;}
@@ -44,6 +45,10 @@
 .mabo-10{margin-bottom: 10px;}
 .mabo{margin-bottom: 20px;}
 .mabo-2x{margin-bottom: 40px;}
+
+.flex{display: flex;}
+.juco-center{justify-content: center;}
+.juco-spar{justify-content: space-around;}
 
 .posi-re{position: relative;}
 .posi-ab{position: absolute;}
