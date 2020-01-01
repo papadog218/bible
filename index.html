@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>성경책</title>
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -17,18 +16,44 @@
     <header class="text-center patop box">
         <div class="fs-50">창세기(Genesis)</div>
         <nav class="patop">
-            <ul class="old">
-                <li>
-                    <label>
-                        <i class="far fa-circle"></i>
-                        <input type="checkbox" name="ge" id="ge" class="ge dis-no">창세기
-                    </label>
-                </li>
-            </ul>
-            <ul class="new">
-
-            </ul>
+            <div class="old dis-inbl my">
+                <p>구약성경</p>
+                <ul class="oldList">
+                    <li>
+                        <label class="cupo">
+                            <i class="far fa-dot-circle"></i>
+                            <input type="radio" name="bible" id="ge" class="ge dis-no" onclick="goPage('index.html')" />창세기
+                        </label>
+                    </li>
+                    <li>
+                        <label class="cupo">
+                            <i class="far fa-circle"></i>
+                            <input type="radio" name="bible" id="ex" class="ex dis-no" onclick="goPage('exodus.html')" />출애굽기
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="new dis-inbl my">
+                <p>신약성경</p>
+                <ul class="newList">
+                    <li>
+                        <label class="cupo">
+                            <i class="far fa-dot-circle"></i>
+                            <input type="radio" name="bible" id="ma" class="ma dis-no" onclick="goPage('matthew.html')" />마태복음
+                        </label>
+                    </li>
+                    <li>
+                        <label class="cupo">
+                            <i class="far fa-circle"></i>
+                            <input type="radio" name="bible" id="mark" class="mark dis-no" onclick="goPage('mark.html')" />마가복음
+                        </label>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
+    <div class="words">
+
+    </div>
 </body>
 </html>

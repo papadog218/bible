@@ -1,3 +1,4 @@
+@import "reset.css";
 @import "all.min.css";
 
 .fs-12{font-size: 12px;}
@@ -24,8 +25,12 @@
 .patop{padding-top: 20px;}
 .patop-2x{padding-top: 40px;}
 
+.my{border: 1px solid red;}
 .dis-no{display: none;}
+.dis-inbl{display: inline-block;}
 .box{box-sizing: border-box;}
+.cupo:hover{cursor: pointer;}
+ul.oldList li, ul.newList li{display: inline-block;}
 
 
 input.ge{border: 1px solid brown;}
