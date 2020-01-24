@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>성경책</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- vue js -->
-    <script src="js/vue.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/vue.js"></script>
+    <script src="../js/index.js"></script>
 </head>
 <body style="height: 2000px;">
     <header class="text-center patop box">
-        <div class="fs-50 pabo">창세기(Genesis)</div>
+        <div class="fs-50">출애굽기(exodus)</div>
         <nav class="patop">
             <div class="old dis-inbl">
                 <p class="pabo-10">구약성경<hr></p>
@@ -22,38 +22,38 @@
                     <li>
                         <label class="cupo">
                             <i class="far fa-circle"></i>
-                            <input type="radio" name="bible" id="ge" class="ge dis-no" onclick="goPage('old/genesis.html')" />창세기
+                            <input type="radio" name="bible" id="ge" class="ge dis-no" onclick="goPage('genesis.html')" />창세기
                         </label>
                     </li>
                     <li>
                         <label class="cupo">
                             <i class="far fa-circle"></i>
-                            <input type="radio" name="bible" id="ex" class="ex dis-no" onclick="goPage('old/exodus.html')" />출애굽기
+                            <input type="radio" name="bible" id="ex" class="ex dis-no" onclick="goPage('exodus.html')" />출애굽기
                         </label>
                     </li>
                     <li>
                         <label class="cupo">
                             <i class="far fa-circle"></i>
-                            <input type="radio" name="bible" id="le" class="le dis-no" onclick="goPage('old/leviticus.html')" />레위기
+                            <input type="radio" name="bible" id="le" class="le dis-no" onclick="goPage('leviticus.html')" />레위기
                         </label>
                     </li>
                     <br>
                     <li>
                         <label class="cupo">
                             <i class="far fa-circle"></i>
-                            <input type="radio" name="bible" id="numbers" class="numbers dis-no" onclick="goPage('old/numbers.html')" />민수기
+                            <input type="radio" name="bible" id="numbers" class="numbers dis-no" onclick="goPage('numbers.html')" />민수기
                         </label>
                     </li>
                     <li>
                         <label class="cupo">
                             <i class="far fa-circle"></i>
-                            <input type="radio" name="bible" id="de" class="de dis-no" onclick="goPage('old/deuteronomy.html')" />신명기
+                            <input type="radio" name="bible" id="de" class="de dis-no" onclick="goPage('deuteronomy.html')" />신명기
                         </label>
                     </li>
                     <li>
                         <label class="cupo">
                             <i class="far fa-circle"></i>
-                            <input type="radio" name="bible" id="jos" class="jos dis-no" onclick="goPage('old/joshua.html')" />여호수아
+                            <input type="radio" name="bible" id="jos" class="jos dis-no" onclick="goPage('joshua.html')" />여호수아
                         </label>
                     </li>
                 </ul>
@@ -64,24 +64,27 @@
                     <li>
                         <label class="cupo">
                             <i class="far fa-circle"></i>
-                            <input type="radio" name="bible" id="ma" class="ma dis-no" onclick="goPage('matthew.html')" />마태복음
+                            <input type="radio" name="bible" id="ma" class="ma dis-no" onclick="goPage('../new/matthew.html')" />마태복음
                         </label>
                     </li>
                     <li>
                         <label class="cupo">
                             <i class="far fa-circle"></i>
-                            <input type="radio" name="bible" id="mark" class="mark dis-no" onclick="goPage('mark.html')" />마가복음
+                            <input type="radio" name="bible" id="mark" class="mark dis-no" onclick="goPage('../new/mark.html')" />마가복음
                         </label>
                     </li>
                     <li>
                         <label class="cupo">
                             <i class="far fa-circle"></i>
-                            <input type="radio" name="bible" id="luke" class="luke dis-no" onclick="goPage('luke.html')" />누가복음
+                            <input type="radio" name="bible" id="luke" class="luke dis-no" onclick="goPage('../new/luke.html')" />누가복음
                         </label>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
+    <div class="words">
+
+    </div>
 </body>
 </html>

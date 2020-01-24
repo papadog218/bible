@@ -67,3 +67,4 @@ ul.oldList li, ul.newList li{display: inline-block;}
 .chap{color: deepskyblue; font-size: 45px;}
 .subhead{font-size: 18px;}
 .num{padding-left: 5px; display: inline-block; width: 10px;}
+.old{width: 296px;} .new{width: 336px;}
